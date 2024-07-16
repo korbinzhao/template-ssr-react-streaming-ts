@@ -1,6 +1,8 @@
 import { Suspense, lazy } from 'react'
 import './App.css'
 
+import './test.json'
+
 // Works also with SSR as expected
 const Card = lazy(() => import('./Card'))
 
